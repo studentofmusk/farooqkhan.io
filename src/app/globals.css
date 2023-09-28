@@ -40,6 +40,14 @@ body{
 .bg-4{
   background-color: #888b94;
 }
+.c-5{
+  color: #434657;
+}
+.bg-5{
+  background-color: #434657;
+}
 
 
-
+.peer-mt-3:hover .hover-mt-3{
+  margin-top: 10px;
+}

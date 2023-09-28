@@ -2,7 +2,7 @@ import React from 'react'
 
 const Slide2 = () => {
   return (
-    <div className='w-full bg-1 py-10'>
+    <div className='w-full bg-1 pt-16 pb-52'>
         <section className='w-[80%] mx-auto mt-10'>
             <div className='w-full flex justify-between items-start'>
                 {/* Left */}
