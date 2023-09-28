@@ -3,7 +3,7 @@ const {PC, Layer, Cube } = require('@/Icons/SVG')
 
 const Boxes = () => {
   return (
-    <section className='relative flex justify-center top-0 left-0 w-full h-3'>
+    <section className='cursor-default relative flex justify-center top-0 left-0 w-full h-3'>
         <div className='absolute flex space-x-8 -top-32' >
 
             
