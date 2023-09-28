@@ -1,7 +1,14 @@
-import Image from 'next/image'
+import Navbar from "@/components/Navbar";
+import Slide1 from "@/components/Slide1";
 
 export default function Home() {
   return (
-    <div>Hello</div>
+    <>
+
+    <Navbar/>
+    <Slide1/>
+
+
+    </>
   )
 }

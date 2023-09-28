@@ -1,27 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+body{
+  font-family: 'Comfortaa', cursive ;
+  color: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.c-1{
+  color: #333647;
+}
+.bg-1{
+  background-color: #333647;
+}
+.c-2{
+  color: #333647;
+}
+.bg-2{
+  background-color: #333647;
+}
+.c-2{
+  color: #666874;
+}
+.bg-2{
+  background-color: #666874;
+}
+.c-3{
+  color: #ffaf2a;
+}
+.bg-3{
+  background-color: #ffaf2a;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
+
