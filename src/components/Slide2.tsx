@@ -28,7 +28,7 @@ const Slide2 = () => {
                     
 
                     <div className="w-4/6">
-                    <div className='text-2xl my-4'>You can’t use up creativity, the more you use, more you have in the signifant mind</div>
+                    <div className='text-2xl my-4'>You can&apos;t use up creativity, the more you use, more you have in the signifant mind</div>
                     <div className='c-4 text-xs'>Creativity isn't a finite resource; it grows and flourishes the more you tap into it. In the realm of a curious mind, every endeavor sparks even greater imagination and potential</div>
                     <a href='/resume' className='flex space-x-10 items-center mt-10 cursor-pointer'>
                         <div className=" flex items-center">
