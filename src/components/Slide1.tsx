@@ -2,17 +2,17 @@ import React from 'react'
 
 const Slide1 = () => {
   return (
-    <section className='w-[80%] mx-auto mt-10'>
+    <section className='w-[80%] mx-auto my-10'>
         <div className='w-full flex justify-between items-start'>
             {/* Left */}
             <div className='w-[50%] mt-5'>
                 <h1 className='text-8xl mb-2'>Farooq <br /> Khan</h1>
                 <div className='mb-20 w-16 h-3 bg-3 rounded-full'></div>
-                <div className=' flex space-x-5'>
+                <div className=' flex space-x-5 cursor-pointer'>
                     
-                    <a target='_blank' href="https://github.com/studentofmusk"><img src="GitHub.png" alt=""  /></a>
-                    <a target='_blank' href="https://instagram.com/student_of_musk?igshid=OGQ5ZDc2ODk2ZA=="><img src="Instagram.png" alt=""  /></a>
-                    <a target='_blank' href="https://www.linkedin.com/in/farooq-khan-89a67a252"><img src="LinkedIn.png" alt=""  /></a>
+                    <a className='hover:-translate-y-1 duration-150' target='_blank' href="https://github.com/studentofmusk"><img src="GitHub.png" alt=""  /></a>
+                    <a className='hover:-translate-y-1 duration-150' target='_blank' href="https://instagram.com/student_of_musk?igshid=OGQ5ZDc2ODk2ZA=="><img src="Instagram.png" alt=""  /></a>
+                    <a className='hover:-translate-y-1 duration-150' target='_blank' href="https://www.linkedin.com/in/farooq-khan-89a67a252"><img src="LinkedIn.png" alt=""  /></a>
                 </div>
             </div>
             {/* Right */}

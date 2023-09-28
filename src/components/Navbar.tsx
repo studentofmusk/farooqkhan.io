@@ -8,16 +8,16 @@ const Navbar = () => {
         
         <ul  className="mr-10 flex text-3xl font-bold space-x-7 ">
           <li className="flex flex-col items-center">
-            <div className="mb-3 hover:text-white transform duration-150 cursor-pointer ">Services</div>
+            <div className="mb-3 hover:text-white hover:-translate-y-0.5 transform duration-150 cursor-pointer ">Services</div>
             <div className="w-2 h-2 rounded-full bg-3"></div>
           </li>
           <li className="flex flex-col items-center option2">
-            <div className="mb-3 c-2 peer-hover:text-white hover:text-white transform duration-150 cursor-pointer ">Works</div>
-            <div className="w-2 h-2 bg-1 rounded-full "></div>
+            <div className="mb-3 c-2  hover:text-white hover:-translate-y-0.5 transform duration-150 cursor-pointer ">Works</div>
+            <div className="w-2 h-2 bg-base rounded-full "></div>
           </li>
           <li className="flex flex-col items-center">
-            <div className="mb-3 c-2 hover:text-white transform duration-150 cursor-pointer ">Blog</div>
-            <div className="w-2 h-2 bg-1 rounded-full "></div>
+            <div className="mb-3 c-2 hover:text-white hover:-translate-y-0.5 transform duration-150 cursor-pointer ">Blog</div>
+            <div className="w-2 h-2 bg-base rounded-full "></div>
           </li>
         </ul>
         

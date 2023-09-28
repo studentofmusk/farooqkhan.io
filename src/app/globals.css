@@ -10,17 +10,17 @@ body{
   color: #ffffff;
 }
 
-.c-1{
+.c-base{
   color: #333647;
+}
+.bg-base{
+  background-color: #333647;
+}
+.c-1{
+  color: #252734;
 }
 .bg-1{
-  background-color: #333647;
-}
-.c-2{
-  color: #333647;
-}
-.bg-2{
-  background-color: #333647;
+  background-color: #252734;
 }
 .c-2{
   color: #666874;
