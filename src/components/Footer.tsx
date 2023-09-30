@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <section className='flex flex-col justify-between items-center'>
-        <img className='w-32' src="logo.png" alt="" />
-        <div className='mb-16 font-bold text-sm'>Thanks for scrolling, <span className='font-normal text-slate-300'>That&apos;s all</span> </div>
+        <img className='w-16 md:w-32' src="logo.png" alt="" />
+        <div className='mb-8 md:mb-16 font-bold text-sm'>Thanks for scrolling, <span className='font-normal text-slate-300'>That&apos;s all</span> </div>
         <div className='mb-10 flex space-x-10 cursor-pointer'>
                     
                     <a className='hover:scale-125 duration-150' target='_blank' href="https://github.com/studentofmusk"><img src="GitHub.png" alt=""  /></a>

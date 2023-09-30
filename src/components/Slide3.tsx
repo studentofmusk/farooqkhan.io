@@ -4,7 +4,7 @@ const {Cloud, ReactIcon, Nodejs, Unity, MySQL, MongoDB, Express, Tailwind}  = re
 const Slide3 = () => {
   return (
     <section className='mt-48 flex justify-center items-center'>
-        <div className='h-52 w-9/12 flex items-center justify-center flex-shrink-0 flex-wrap '>
+        <div className='text-[.5rem] md:text-base h-52 w-11/12 md:w-9/12 flex items-center justify-center flex-shrink-0 flex-wrap '>
             <div className='flex space-x-2 mx-4 items-center cursor-default'>
                 <Cloud/>
                 <div>AWS Cloud Computing</div>

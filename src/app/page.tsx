@@ -10,13 +10,11 @@ export default function Home() {
   return (
     <>
 
-    <Navbar/>
     <Slide1/>
     <Slide2/>
     <Boxes/>
     <Slide3/>
     <Slide4/>
-    <Footer/>
     
     
 
