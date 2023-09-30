@@ -51,3 +51,26 @@ body{
 .peer-mt-3:hover .hover-mt-3{
   margin-top: 10px;
 }
+#profile{
+  background: url("/Farooqkhan.jpg");
+  /* background-size: 100% 170%; */
+  background-size: cover;
+
+}
+
+.squeez-anime{
+  animation: squeez 1s alternate-reverse infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+
+}
+
+
+@keyframes squeez  {
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 20px;
+  }
+}
