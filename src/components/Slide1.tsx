@@ -21,8 +21,7 @@ const Slide1 = () => {
 
                 <div className="w-4/6">
                 <div className="c-4 mb-5">-Introduction</div>
-                <div className='text-3xl mb-8'>Product Designer and Developer, based in India.</div>
-                <div className='c-4 text-xs'>Dive into my portfolio where code meets creativity. Each project showcases my journey through the vast landscape of full-stack development, crafting seamless experiences from database to user interface.</div>
+                <div className='text-3xl mb-8'>UI/UX Designer and Backend Developer, based in MERN Stack.</div>
                 <a href='/resume' className='flex items-center mt-10 cursor-pointer'>
                     <img className='inline mr-4' src="doc.png" alt="" />
                     <div className='inline c-3 underline'>Resume</div>

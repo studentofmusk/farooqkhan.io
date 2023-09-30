@@ -52,7 +52,7 @@ body{
   margin-top: 10px;
 }
 #profile{
-  background: url("/Farooqkhan.jpg");
+  background: url("Farooqkhan.jpg");
   /* background-size: 100% 170%; */
   background-size: cover;
 
