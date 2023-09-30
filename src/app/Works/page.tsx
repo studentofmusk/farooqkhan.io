@@ -1,11 +1,12 @@
-import React from 'react'
-
-const page = () => {
+export default function Home() {
   return (
-    <section className='h-screen'>
 
-    </section>
-  )
+        <>
+          <section className='h-[100vh]'>
+          
+          </section>
+        
+        </>
+      )
 }
 
-export default page

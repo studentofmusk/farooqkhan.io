@@ -1,8 +1,6 @@
-import React from 'react'
-
-const page = () => {
-
+export default function Home() {
   return (
+
         <>
           <section className='h-[100vh]'>
           </section>
@@ -11,4 +9,3 @@ const page = () => {
       )
 }
 
-export default page
