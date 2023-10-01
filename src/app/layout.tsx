@@ -1,10 +1,8 @@
-import Nav from '@/components/Nav'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Farooq Khan | PORTFOLIO',
@@ -19,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='bg-[#333647]' >
-        <Nav/>
+        <Navbar/>
         {children}
         <Footer/>
         </body>
