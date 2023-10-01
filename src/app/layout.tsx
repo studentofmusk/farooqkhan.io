@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar'
 export const metadata: Metadata = {
   title: 'Farooq Khan | PORTFOLIO',
   description: 'this is a full stack developer portfolio',
+  themeColor:'#333647'
 }
 
 export default function RootLayout({
